@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- viewport pour être responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- jQuery Google CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- bootstrap.js Fichier js qui a besoin de jQuery pour fonctionner -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Alice Crosier - Développeuse web et mobile</title>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavBar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#about">Moi</a></li>
+                    <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#experience">Expériences</a></li>
+                    <li><a href="#education">Formations</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#recommandation">Recommandations</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="about" class="container-fluid">
+        <div class="col-xs-8 col-md-4 profile-picture">
+            <img src="images/profile.PNG" alt="Alice développeuse web et mobile" class="img-circle"/>
+        </div>
+        <div class="heading">
+            <h1>Je me présente, je m'appelle Alice</h1>
+            <h3>Développeur web et mobile</h3>
+            <a href="docs/CVAliceCrosier-Developpeuse-web-mobile.pdf" class="button1">Télécharger CV</a>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class=red-divider></div>
+        <div class="heading">
+            <h2>Compétences</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                            <h5>HTML</h5>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            <h5>CSS</h5>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                            <h5>JavaScript</h5>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                            <h5>Bootstrap</h5>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                            <h5>React</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                            <h5>Node.js</h5>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                            <h5>PHP</h5>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            <h5>Python</h5>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                            <h5>MongoDB</h5>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            <h5>mySQL</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <div class="white-divider"></div>
+            <div class="heading">
+                <h2>Expériences professionnelles</h2>
+            </div>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-badge">
+                        <span class="glyphicon glyphicon-briefcase"></span>
+                    </div>
+                    <div class="timeline-panel-container">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>UBER</h3>
+                                <h4>Community Support Representative Team Lead</h4>
+                                <p class="text-muted"><small class="glyphicon glyphicon-time"></small>2015-2017</p>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Gestion d'une équipe de 10 personnes en charge des réseaux sociaux</p>
+                                <p>Rédaction des procédures</p>
+                                <p>Recrutement et formation</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge">
+                        <span class="glyphicon glyphicon-briefcase"></span>
+                    </div>
+                    <div class="timeline-panel-container-inverted">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>Cirque National Alexis Gruss</h3>
+                                <h4>Chargée de communication</h4>
+                                <p class="text-muted"><small class="glyphicon glyphicon-time"></small>2013-2014</p>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Coordination avec l'agence de graphisme</p>
+                                <p>Gestion des relations avec les partenaires et les médias</p>
+                                <p>Gestion du site web, des réseaux sociaux</p>
+                                <p>PAO : cartes postales, pancartes</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge">
+                        <span class="glyphicon glyphicon-briefcase"></span>
+                    </div>
+                    <div class="timeline-panel-container">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>SCIENCE EN TARN</h3>
+                                <h4>Chargée de communication et de programmation scientifique</h4>
+                                <p class="text-muted"><small class="glyphicon glyphicon-time"></small>2012-2013</p>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Organisation de la Fête de la Science dans le Tarn</p>
+                                <p>Programmation d'événements scientifiques</p>
+                                <p>Gestion du blog et des réseaux sociaux</p>
+                                <p>PAO : affiches, brochures, banderoles</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <div class="red-divider"></div>
+            <div class="heading">
+                <h2>Formation</h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="education-block">
+                        <h5>2017 - 2018</h5>
+                        <span class="glyphicon glyphicon-education"></span>
+                        <h3>Coding Factory by Itescia</h3>
+                        <h4>Développeuse front et back</h4>
+                        <div class="red-divider"></div>
+                        <p>Programmation web</p>
+                        <p>Programmation mobile</p>
+                        <p>Programmation orientée objet</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="education-block">
+                        <h5>2011 - 2012</h5>
+                        <span class="glyphicon glyphicon-education"></span>
+                        <h3>Université de La Rochelle</h3>
+                        <h4>Patrimoine, Tourisme et Multimédia</h4>
+                        <div class="red-divider"></div>
+                        <p>HTML/CSS</p>
+                        <p>Joomla</p>
+                        <p>Photoshop, InDesign, Illustrator</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="white-divider"></div>
+            <div class="heading">
+                <h2>Portfolio</h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href=# class="thumbnail" target="_blank">EN CONSTRUCTION</a>
+                </div>
+                <div class="col-sm-4">
+                    <a href=# class="thumbnail" target="_blank">EN CONSTRUCTION</a>
+                </div>
+                <div class="col-sm-4">
+                    <a href=# class="thumbnail" target="_blank">EN CONSTRUCTION</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href=# class="thumbnail" target="_blank">EN CONSTRUCTION</a>
+                </div>
+                <div class="col-sm-4">
+                    <a href=# class="thumbnail" target="_blank">EN CONSTRUCTION</a>
+                </div>
+                <div class="col-sm-4">
+                    <a href=# class="thumbnail" target="_blank">EN CONSTRUCTION</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+
+                </div>
+                <div class="col-sm-4">
+                    
+                </div>
+                <div class="col-sm-4">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="recommandation">
+        <div class="container">
+            <div class="red-divider"></div>
+            <div class="heading">
+                <h2>Recommandations</h2>
+            </div>
+            <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li> 
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <h3>En construction</h3>
+                        <h4>...</h4>
+                    </div>
+                    <div class="item">
+                        <h3>En construction</h3>
+                        <h4>...</h4>
+                    </div>
+                    <div class="item">
+                        <h3>En construction</h3>
+                        <h4>...</h4>
+                    </div>
+                </div>
+                <a href="#myCarousel" class="left carousel-control" data-slide="prev" role="button">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a href="#myCarousel" class="right carousel-control" data-slide="next" role="button">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center">
+        <a href="#about">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <h5>Alice Crosier</h5>
+    </footer>
+</body>
+</html>
